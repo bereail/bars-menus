@@ -12,7 +12,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="api/menu/:slug" element={<Menu />} /> 
+        <Route path="api/menu/:id" element={<Menu />} />
+
       </Routes>
       <GlobalStyle />
     </Router>

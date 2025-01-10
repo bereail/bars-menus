@@ -10,33 +10,34 @@ const defaultConfig = {
 const API = {
   fetchBars: async (searchTerm, page) => {
     try {
-        const endpoint = `${API_URL}Menu`;
-        const data = await fetch(endpoint).then((res) => res.json());
-
-        const results = data.reduce((acc, menu) => {
-            const existingBar = acc.find((bar) => bar.barId === menu.barId);
-            if (existingBar) {
-                existingBar.menus.push({ id: menu.id, name: menu.name });
-            } else {
-                acc.push({
-                    barId: menu.barId,
-                    menus: [{ id: menu.id, name: menu.name }],
-                });
-            }
-            return acc;
-        }, []);
-
-        return {
-            page,
-            results,
-            total_pages: 1,
-            total_results: results.length,
-        };
+      const endpoint = `${API_URL}Menu?page=${page}`; // Añade soporte para paginación si es necesario
+      const data = await fetch(endpoint).then((res) => res.json());
+  
+      const results = data.reduce((acc, menu) => {
+        const existingBar = acc.find((bar) => bar.barId === menu.barId);
+        if (existingBar) {
+          existingBar.menus.push({ id: menu.id, name: menu.name });
+        } else {
+          acc.push({
+            barId: menu.barId,
+            menus: [{ id: menu.id, name: menu.name }],
+          });
+        }
+        return acc;
+      }, []);
+  
+      return {
+        page,
+        results,
+        total_pages: 1, // Actualiza si tienes soporte para más páginas
+        total_results: results.length,
+      };
     } catch (error) {
-        console.error("Error fetching bars:", error);
-        throw new Error("Failed to fetch bars");
+      console.error("Error fetching bars:", error);
+      throw new Error("Failed to fetch bars");
     }
-},
+  },
+  
 
   fetchMenu: async () => {
     const endpoint = `${MENU_BASE_URL}`;

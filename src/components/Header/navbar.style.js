@@ -65,7 +65,7 @@ export const LogoutButton = styled.button`
   }
 `;
 
-export const LogoAilImg = styled.img`
+export const StyledLogoAilImg = styled.img`
   width: 50px; /* Ajusta el tamaño según sea necesario */
   height: auto;
 `;

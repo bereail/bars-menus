@@ -1,11 +1,11 @@
 import React from "react";
-import { useHomeFetch } from "../../hooks/useHomeFetch";
+import { useBarFetch } from "../../hooks/useBarFetch";
 import { HomeContent, Title, CardGrid, Card } from "./home.style";
 import { useNavigate } from "react-router-dom";
 import slugify from "../../hooks/createSlug";
 
 const Home = () => {
-  const { state, loading, error, setIsLoadingMore } = useHomeFetch();
+  const { state, loading, error, setIsLoadingMore } = useBarFetch();
   const navigate = useNavigate(); // Hook para navegación
 
   if (error) return <div>Error al cargar los bares.</div>;
@@ -25,12 +25,16 @@ const Home = () => {
                   console.log(menu.id); // Verifica el id del menú
                   return (
                     <li
-                      key={menu.id}
-                      onClick={() => navigate(`/api/menu/${menu.id}`)}
-                      style={{ cursor: "pointer", color: "blue" }}
-                    >
-                      {menu.name}
-                    </li>
+                    key={menu.id}
+                    onClick={() => {
+                      console.log(menu.id); // Verifica el valor del ID
+                      navigate(`/api/menu/${menu.id}`);
+                    }}
+                    style={{ cursor: "pointer", color: "blue" }}
+                  >
+                    {menu.name}
+                  </li>
+                  
                   );
                 })}
               </ul>
