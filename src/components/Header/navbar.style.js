@@ -14,6 +14,7 @@ export const NavbarWrapper = styled.nav`
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   z-index: 1000;
   box-sizing: border-box;
+  margin-bottom: 10px;
 `;
 
 export const NavbarBrand = styled.div`

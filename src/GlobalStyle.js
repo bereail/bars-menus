@@ -13,6 +13,9 @@ export const GlobalStyle = createGlobalStyle`
         --fontSmall: 1rem;
     }
 
+  main {
+  padding-top: 60px; /* Igual a la altura del Navbar */
+}
     * {
         box-sizing: border-box;
         font-family: 'Abel', sans-serif;
@@ -25,7 +28,7 @@ export const GlobalStyle = createGlobalStyle`
         h1 {
            font-size: 2rem;
            font-weight: 600;
-           color: var(--white);
+           color: var(--black);
         }
 
         h3 {

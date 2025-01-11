@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
-import API from "../path-to-api-file"; // Ajusta la ruta según tu estructura de archivos
-
+import API from "../API";
 export const useMenuFetch = () => {
   const [state, setState] = useState({
     results: [],

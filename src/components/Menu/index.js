@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
 const Menu = () => {
-  const { id } = useParams(); // Capturar el parámetro `id`
+  const { id } = useParams();  // Get the menu ID from the URL
   const [menu, setMenu] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -10,8 +10,8 @@ const Menu = () => {
   useEffect(() => {
     const fetchMenu = async () => {
       try {
-        const response = await fetch(`https://localhost:7119/api/Menu/${id}`);
-        if (!response.ok) throw new Error("Error al cargar el menú.");
+        const response = await fetch(`/api/menu/${id}`);  // API call to the backend
+        if (!response.ok) throw new Error("Error loading menu data.");
         const data = await response.json();
         setMenu(data);
       } catch (err) {
@@ -24,23 +24,17 @@ const Menu = () => {
     fetchMenu();
   }, [id]);
 
-  if (loading) return <div>Cargando menú...</div>;
+  if (loading) return <div>Loading...</div>;
   if (error) return <div>{error}</div>;
 
   return (
     <div>
-      <h1>{menu.name}</h1>
-      <p>Bar: {menu.bar.name}</p>
-      <p>Productos disponibles:</p>
-      <ul>
-        {menu.products.length > 0 ? (
-          menu.products.map((product) => (
-            <li key={product.id}>{product.name}</li>
-          ))
-        ) : (
-          <p>No hay productos disponibles.</p>
-        )}
-      </ul>
+      {menu && (
+        <>
+          <h1>{menu.name}</h1>  {/* Display the menu name */}
+          {/* Render other details of the menu */}
+        </>
+      )}
     </div>
   );
 };

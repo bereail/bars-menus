@@ -4,7 +4,7 @@ using WebApplication1.Services.Interfaces;
 
 namespace MenuRositaAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class ProductController : ControllerBase
     {

@@ -51,6 +51,7 @@ namespace WebApplication1.Services
             var menus = await _context.Menus
                 .Select(c => new MenuDto
                 {
+                    Id = c.Id,
                     Name = c.Name,
                     BarId = c.BarId
                 })

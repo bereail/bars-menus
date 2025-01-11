@@ -3,10 +3,13 @@ import { useBarFetch } from "../../hooks/useBarFetch";
 import { HomeContent, Title, CardGrid, Card } from "./home.style";
 import { useNavigate } from "react-router-dom";
 import slugify from "../../hooks/createSlug";
+import { setSelectedMenuName } from "../../hooks/getSelectedMenuName"; // Usamos la función para almacenar el nombre del menú
+import { setSelectedBarName } from "../../hooks/getSelectedBarName"; // Nueva función para almacenar el nombre del bar
+import FetchMenuItemById from "../../hooks/fetchMenuItemById";
 
-const Home = () => {
+const Bar = () => {
   const { state, loading, error, setIsLoadingMore } = useBarFetch();
-  const navigate = useNavigate(); // Hook para navegación
+  const navigate = useNavigate();
 
   if (error) return <div>Error al cargar los bares.</div>;
   if (loading && state.results.length === 0) return <div>Cargando...</div>;
@@ -14,21 +17,24 @@ const Home = () => {
   return (
     <HomeContent>
       <Title>Bares</Title>
+
       <CardGrid>
         {state.results.map((bar) => {
-          const slug = slugify(bar.name); // Generar el slug
+           console.log("Bar:", bar);
           return (
             <Card key={bar.barId}>
               <h3>{bar.name}</h3>
               <ul>
                 {bar.menus.map((menu) => {
-                  console.log(menu.id); // Verifica el id del menú
+                   const slug = slugify(menu.name);
                   return (
                     <li
                     key={menu.id}
                     onClick={() => {
-                      console.log(menu.id); // Verifica el valor del ID
-                      navigate(`/api/menu/${menu.id}`);
+                      const slug = slugify(menu.name); // Convertir el nombre del menú en un slug
+                      setSelectedBarName(bar.name); // Guardar el nombre del bar seleccionado (opcional)
+                      setSelectedMenuName(menu.name); // Guardar el nombre del menú seleccionado
+                      navigate(`/${slug}`); // Redirigir a la página dinámica
                     }}
                     style={{ cursor: "pointer", color: "blue" }}
                   >
@@ -42,6 +48,7 @@ const Home = () => {
           );
         })}
       </CardGrid>
+
       {state.page < state.total_pages && !loading && (
         <button onClick={() => setIsLoadingMore(true)}>Cargar más</button>
       )}
@@ -49,4 +56,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Bar;

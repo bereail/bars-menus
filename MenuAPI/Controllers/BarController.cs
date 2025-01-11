@@ -1,11 +1,13 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using WebApplication1.Models.Dtos;
+using WebApplication1.Services;
 using WebApplication1.Services.Interfaces;
 
 namespace WebApplication1.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class BarController : ControllerBase
     {
@@ -15,6 +17,22 @@ namespace WebApplication1.Controllers
         {
             _barServices = barServices;
         }
+
+
+        [HttpGet("with-menus")]
+        public async Task<IActionResult> GetAllBarsWithMenus()
+        {
+            try
+            {
+                var barsWithMenus = await _barServices.GetAllBarWithMenusAsync();
+                return Ok(barsWithMenus);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Error al obtener los bares: {ex.Message}");
+            }
+        }
+
 
         // Obtener una categoría por ID
         [HttpGet("{id}")]
@@ -57,6 +75,19 @@ namespace WebApplication1.Controllers
             }
         }
 
+        [HttpGet("/menu/{id}")]
+        public async Task<IActionResult> GetBarWithMenus(int id)
+        {
+            try
+            {
+                var bar = await _barServices.GetAllBarWithMenusByIdAsync(id); 
+                return Ok(bar);
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound(new { message = ex.Message });
+            }
+        }
 
     }
 

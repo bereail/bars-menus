@@ -1,8 +1,8 @@
 // Configuration for your local API
-const API_URL = 'https://localhost:7119/api/'; // Base URL for your local API
+const API_URL = 'https://localhost:7119/'; // Base URL for your local API
 
 // Endpoints
-const MENU_BASE_URL = `${API_URL}api/Menu`; // Endpoint for the "Menu" path
+const MENU_BASE_URL = `${API_URL}/with-menus`; // Endpoint for the "Menu" path
 
 // Example of other endpoints if needed in the future
 // const USERS_BASE_URL = `${API_URL}api/Users`;

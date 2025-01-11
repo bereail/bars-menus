@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using WebApplication1.Models;
 using WebApplication1.Models.Dtos;
 using WebApplication1.Models.Entities;
@@ -124,8 +125,55 @@ namespace WebApplication1.Services
             await _context.SaveChangesAsync();
         }
 
-     
+
+        public async Task<BarWithMenuDto> GetAllBarWithMenusByIdAsync(int id)
+        {
+
+           
+            var bar = await _context.Bars
+                .Include(b => b.Menus) // Incluir los menús relacionados
+                .Where(b => b.Id == id)
+                .Select(b => new BarWithMenuDto
+                {
+                    BarId = b.Id,
+                    Name = b.Name,
+                    Menus = b.Menus.Select(m => new BarWithMenuDto.MenuDto
+                    {
+                        Id = m.Id,
+                        Name = m.Name
+                    }).ToList()
+                })
+                .FirstOrDefaultAsync();
+
+            if (bar == null)
+            {
+                throw new KeyNotFoundException("Bar not found");
+            }
+
+            return bar;
+        }
+
+        public async Task<List<BarWithMenuDto>> GetAllBarWithMenusAsync()
+        {
+            var barsWithMenus = await _context.Bars
+                .Include(b => b.Menus) // Incluir los menús relacionados
+                .Select(b => new BarWithMenuDto
+                {
+                    BarId = b.Id,
+                    Name = b.Name,
+                    Menus = b.Menus.Select(m => new BarWithMenuDto.MenuDto
+                    {
+                        Id = m.Id,
+                        Name = m.Name
+                    }).ToList()
+                })
+                .ToListAsync();
+
+            return barsWithMenus;
+        }
+
     }
 }
+
 
 

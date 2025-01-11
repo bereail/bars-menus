@@ -6,7 +6,7 @@ using WebApplication1.Services.Interfaces;
 
 namespace WebApplication1.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class MenuController : ControllerBase
     {
@@ -19,7 +19,7 @@ namespace WebApplication1.Controllers
         }
 
         // Obtener un menu por ID
-        [HttpGet("{id}")]
+        [HttpGet("menu-get/{id}")]
         public async Task<IActionResult> GetMenuById(int id)
         {
             try
