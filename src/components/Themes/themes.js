@@ -4,6 +4,10 @@ export const themes = {
       backgroundColor: "#f8b400",
       color: "#000000",
     },
+    "menu1": {
+      backgroundColor: "#2c3e50",
+      color: "#ffffff",
+    },
     "menu2": {
       backgroundColor: "#4caf50",
       color: "#ffffff",

@@ -15,11 +15,15 @@ const MENU_BASE_URL = `${API_URL}/with-menus`; // Endpoint for the "Menu" path*/
 
 
 const API = {
+
+    //https://localhost:7119/Menu
+    //https://localhost:7119/Menu?page=${page}
   fetchBars: async (searchTerm, page) => {
     try {
       const endpoint = `${API_URL}Menu?page=${page}`; // Añade soporte para paginación si es necesario
       const data = await fetch(endpoint).then((res) => res.json());
-  
+      console.log("Datos recibidos desde la API:", data); // <-- Aquí
+      console.log("Endpoint que se está llamando:", endpoint); // <-- Aquí
       const results = data.reduce((acc, menu) => {
         const existingBar = acc.find((bar) => bar.barId === menu.barId);
         if (existingBar) {
@@ -46,13 +50,20 @@ const API = {
   },
   
 
+    //https://localhost:7119/with-menus
   fetchMenu: async () => {
     const endpoint = `${MENU_BASE_URL}`;
     return await (await fetch(endpoint, { method: 'GET' })).json();
   },
+
+
+   ///https://localhost:7119/Menu/{menuId}/details
   // Example: Fetch a specific menu item by ID
   fetchMenuItem: async (menuId) => {
     const endpoint = `${API_URL}Menu/${menuId}/details`;
+    const data = await fetch(endpoint).then((res) => res.json());
+    console.log("Datos recibidos desde la API:", data); // <-- Aquí
+    console.log("Endpoint que se está llamando:", endpoint); // <-- Aquí
     try {
       const response = await fetch(endpoint, { method: 'GET' });
       if (!response.ok) {
@@ -66,6 +77,7 @@ const API = {
   },
   
   // Example: Create a new menu item
+  //https://localhost:7119//with-menus
   createMenuItem: async (menuItemData) => {
     const endpoint = `${MENU_BASE_URL}`;
     const response = await (
@@ -76,7 +88,9 @@ const API = {
     ).json();
     return response;
   },
+
   // Example: Update an existing menu item
+  ////https://localhost:7119//with-menus/{menuId}
   updateMenuItem: async (menuId, updatedData) => {
     const endpoint = `${MENU_BASE_URL}/${menuId}`;
     const response = await (
@@ -90,6 +104,8 @@ const API = {
     ).json();
     return response;
   },
+
+  //https://localhost:7119//with-menus/{menuId}
   // Example: Delete a menu item
   deleteMenuItem: async (menuId) => {
     const endpoint = `${MENU_BASE_URL}/${menuId}`;

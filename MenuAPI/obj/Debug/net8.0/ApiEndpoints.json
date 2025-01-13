@@ -2,7 +2,7 @@
   {
     "ContainingType": "WebApplication1.Controllers.AuthController",
     "Method": "LoginAsync",
-    "RelativePath": "api/Auth/login",
+    "RelativePath": "Auth/login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -18,7 +18,7 @@
   {
     "ContainingType": "WebApplication1.Controllers.BarController",
     "Method": "GetAllBar",
-    "RelativePath": "api/Bar",
+    "RelativePath": "Bar",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -28,7 +28,7 @@
   {
     "ContainingType": "WebApplication1.Controllers.BarController",
     "Method": "GetBarById",
-    "RelativePath": "api/Bar/{id}",
+    "RelativePath": "Bar/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -44,7 +44,7 @@
   {
     "ContainingType": "WebApplication1.Controllers.BarController",
     "Method": "CreateBar",
-    "RelativePath": "api/Bar/{userId}",
+    "RelativePath": "Bar/{userId}",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -63,9 +63,19 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebApplication1.Controllers.BarController",
+    "Method": "GetAllBarsWithMenus",
+    "RelativePath": "Bar/with-menus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApplication1.Controllers.CategoryController",
     "Method": "GetAllCategories",
-    "RelativePath": "api/Category",
+    "RelativePath": "Category",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -75,7 +85,7 @@
   {
     "ContainingType": "WebApplication1.Controllers.CategoryController",
     "Method": "GetCategoryById",
-    "RelativePath": "api/Category/{id}",
+    "RelativePath": "Category/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -91,7 +101,7 @@
   {
     "ContainingType": "WebApplication1.Controllers.CategoryController",
     "Method": "UpdateCategory",
-    "RelativePath": "api/Category/{id}",
+    "RelativePath": "Category/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -112,7 +122,7 @@
   {
     "ContainingType": "WebApplication1.Controllers.CategoryController",
     "Method": "DeleteCategory",
-    "RelativePath": "api/Category/{id}",
+    "RelativePath": "Category/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -128,7 +138,7 @@
   {
     "ContainingType": "WebApplication1.Controllers.CategoryController",
     "Method": "CreateCategory",
-    "RelativePath": "api/Category/{sectionId}",
+    "RelativePath": "Category/{sectionId}",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -149,7 +159,7 @@
   {
     "ContainingType": "WebApplication1.Controllers.MenuController",
     "Method": "GetAllMenu",
-    "RelativePath": "api/Menu",
+    "RelativePath": "Menu",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -159,7 +169,7 @@
   {
     "ContainingType": "WebApplication1.Controllers.MenuController",
     "Method": "CreateMenu",
-    "RelativePath": "api/Menu/{barId}",
+    "RelativePath": "Menu/{barId}",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -178,9 +188,41 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebApplication1.Controllers.BarController",
+    "Method": "GetBarWithMenus",
+    "RelativePath": "menu/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.MenuController",
+    "Method": "GetMenuDetails",
+    "RelativePath": "Menu/{id}/details",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApplication1.Controllers.MenuController",
     "Method": "GetMenuById",
-    "RelativePath": "api/Menu/{id}",
+    "RelativePath": "Menu/menu-get/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -196,7 +238,7 @@
   {
     "ContainingType": "MenuRositaAPI.Controllers.ProductController",
     "Method": "GetAll",
-    "RelativePath": "api/Product",
+    "RelativePath": "Product",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -216,7 +258,7 @@
   {
     "ContainingType": "MenuRositaAPI.Controllers.ProductController",
     "Method": "Create",
-    "RelativePath": "api/Product",
+    "RelativePath": "Product",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -242,7 +284,7 @@
   {
     "ContainingType": "MenuRositaAPI.Controllers.ProductController",
     "Method": "GetById",
-    "RelativePath": "api/Product/{id}",
+    "RelativePath": "Product/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -268,7 +310,7 @@
   {
     "ContainingType": "MenuRositaAPI.Controllers.ProductController",
     "Method": "Update",
-    "RelativePath": "api/Product/{id}",
+    "RelativePath": "Product/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -299,7 +341,7 @@
   {
     "ContainingType": "MenuRositaAPI.Controllers.ProductController",
     "Method": "Delete",
-    "RelativePath": "api/Product/{id}",
+    "RelativePath": "Product/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -315,7 +357,7 @@
   {
     "ContainingType": "WebApplication1.Controllers.SectionController",
     "Method": "GetAllSections",
-    "RelativePath": "api/Section",
+    "RelativePath": "Section",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -325,7 +367,7 @@
   {
     "ContainingType": "WebApplication1.Controllers.SectionController",
     "Method": "CreateSection",
-    "RelativePath": "api/Section",
+    "RelativePath": "Section",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -341,7 +383,7 @@
   {
     "ContainingType": "WebApplication1.Controllers.SectionController",
     "Method": "GetSectionById",
-    "RelativePath": "api/Section/{id}",
+    "RelativePath": "Section/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -357,7 +399,7 @@
   {
     "ContainingType": "WebApplication1.Controllers.SectionController",
     "Method": "UpdateSection",
-    "RelativePath": "api/Section/{id}",
+    "RelativePath": "Section/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -378,7 +420,7 @@
   {
     "ContainingType": "WebApplication1.Controllers.SectionController",
     "Method": "DeleteSection",
-    "RelativePath": "api/Section/{id}",
+    "RelativePath": "Section/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,

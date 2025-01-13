@@ -7,14 +7,19 @@ import { setSelectedMenuName } from "../../hooks/getSelectedMenuName"; // Usamos
 import { setSelectedBarName } from "../../hooks/getSelectedBarName"; // Nueva función para almacenar el nombre del bar
 
 
+//Componente que mapear los bares y al hacer click enviar el id  por path para redirecciones a MenuPage
+//endpoint : //https://localhost:7119/Menu
+//json a recibir : [{"id":1,"name":"Menu1","barId":2}
+
 const Bar = () => {
-  const { state, loading, error, setIsLoadingMore } = useBarFetch();
+  const { state, loading, error, setIsLoadingMore } = useBarFetch(); //https://localhost:7119/Menu
   const navigate = useNavigate();
 
   if (error) return <div>Error al cargar los bares.</div>;
   if (loading && state.results.length === 0) return <div>Cargando...</div>;
 
   return (
+    //style
     <HomeContent>
       <Title>Bares</Title>
 
