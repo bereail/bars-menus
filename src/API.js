@@ -7,6 +7,13 @@ const defaultConfig = {
   },
 };
 
+// Configuration for your local API
+/*const API_URL = 'https://localhost:7119/'; // Base URL for your local API
+
+// Endpoints
+const MENU_BASE_URL = `${API_URL}/with-menus`; // Endpoint for the "Menu" path*/
+
+
 const API = {
   fetchBars: async (searchTerm, page) => {
     try {
@@ -45,9 +52,19 @@ const API = {
   },
   // Example: Fetch a specific menu item by ID
   fetchMenuItem: async (menuId) => {
-    const endpoint = `${MENU_BASE_URL}/${menuId}`;
-    return await (await fetch(endpoint, { method: 'GET' })).json();
+    const endpoint = `${API_URL}Menu/${menuId}/details`;
+    try {
+      const response = await fetch(endpoint, { method: 'GET' });
+      if (!response.ok) {
+        throw new Error("Error fetching menu details");
+      }
+      return await response.json();
+    } catch (error) {
+      console.error("API Error:", error);
+      throw error;
+    }
   },
+  
   // Example: Create a new menu item
   createMenuItem: async (menuItemData) => {
     const endpoint = `${MENU_BASE_URL}`;

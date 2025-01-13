@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import slugify from "../../hooks/createSlug";
 import { setSelectedMenuName } from "../../hooks/getSelectedMenuName"; // Usamos la función para almacenar el nombre del menú
 import { setSelectedBarName } from "../../hooks/getSelectedBarName"; // Nueva función para almacenar el nombre del bar
-import FetchMenuItemById from "../../hooks/fetchMenuItemById";
+
 
 const Bar = () => {
   const { state, loading, error, setIsLoadingMore } = useBarFetch();
@@ -34,6 +34,7 @@ const Bar = () => {
                       const slug = slugify(menu.name); // Convertir el nombre del menú en un slug
                       setSelectedBarName(bar.name); // Guardar el nombre del bar seleccionado (opcional)
                       setSelectedMenuName(menu.name); // Guardar el nombre del menú seleccionado
+                      localStorage.setItem("selectedMenuId", menu.id); // Guardar el ID del menú seleccionado
                       navigate(`/${slug}`); // Redirigir a la página dinámica
                     }}
                     style={{ cursor: "pointer", color: "blue" }}

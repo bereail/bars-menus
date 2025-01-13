@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using WebApplication1.Models.Dtos;
 using WebApplication1.Models.Dtos.Credentials;
 using WebApplication1.Services;
@@ -18,8 +19,57 @@ namespace WebApplication1.Controllers
             _menuServices = menuServices;
         }
 
-        // Obtener un menu por ID
-        [HttpGet("menu-get/{id}")]
+
+
+
+        [HttpGet("{id}/details")]
+        public async Task<IActionResult> GetMenuDetails(int id)
+        {
+            try
+            {
+               
+                var menu = await _menuServices.GetMenuWithDetailsByIdAsync(id);
+
+                if (menu == null)
+                {
+                    return NotFound(new { message = "Menu not found" });
+                }
+
+                
+                var menuDetails = new
+                {
+                    MenuId = menu.Id,
+                    MenuName = menu.Name,
+                    Products = menu.Products.Select(product => new
+                    {
+                        ProductId = product.Id,
+                        ProductName = product.Name,
+                        ProductPrice = product.Price,
+                        ProductDescription = product.Description,
+                        Category = new
+                        {
+                            CategoryId = product.Category.Id,
+                            CategoryName = product.Category.Name,
+                            Section = new
+                            {
+                                SectionId = product.Category.Section.Id,
+                                SectionName = product.Category.Section.Name
+                            }
+                        }
+                    })
+                };
+
+                return Ok(menuDetails);
+            }
+            catch (KeyNotFoundException ex)
+            {
+                return NotFound(new { message = ex.Message });
+            }
+        }
+    
+
+    // Obtener un menu por ID
+    [HttpGet("menu-get/{id}")]
         public async Task<IActionResult> GetMenuById(int id)
         {
             try

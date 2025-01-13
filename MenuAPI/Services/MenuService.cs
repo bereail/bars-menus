@@ -15,6 +15,30 @@ namespace WebApplication1.Services
             _context = context;
         }
 
+        public async Task<Menu> GetMenuWithDetailsByIdAsync(int id)
+        {
+            return await _context.Menus
+                .Include(m => m.Products)                // Incluir productos
+                .ThenInclude(p => p.Category)           // Incluir categoría
+                .ThenInclude(c => c.Section)           // Incluir sección
+                .FirstOrDefaultAsync(m => m.Id == id);
+        }
+
+        public async Task<List<MenuDto>> GetAllMenuAsync()
+        {
+            var menus = await _context.Menus
+                .Select(c => new MenuDto
+                {
+                    Id = c.Id,
+                    Name = c.Name,
+                    BarId = c.BarId
+                })
+                .ToListAsync();
+
+            return menus;
+        }
+
+
         public async Task<MenuDto> CreateMenuAsync(MenuDto menuDto, int barId)
         {
             // Verificar que el Bar existe
@@ -45,7 +69,7 @@ namespace WebApplication1.Services
         }
 
 
-        public async Task<List<MenuDto>> GetAllMenuAsync()
+       /* public async Task<List<MenuDto>> GetAllMenuAsync()
         {
             // Proyectar los datos necesarios a MenuDto
             var menus = await _context.Menus
@@ -59,7 +83,7 @@ namespace WebApplication1.Services
 
             return menus;
         }
-
+       */
 
 
 

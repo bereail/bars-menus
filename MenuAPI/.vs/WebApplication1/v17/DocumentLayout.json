@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|c:\\users\\administrador\\desktop\\bere\\git\\bars-menus\\menuapi\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|solutionrelative:controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|c:\\users\\administrador\\desktop\\bere\\git\\bars-menus\\menuapi\\services\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|solutionrelative:services\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|c:\\users\\administrador\\desktop\\bere\\git\\bars-menus\\menuapi\\services\\interfaces\\imenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|solutionrelative:services\\interfaces\\imenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|c:\\users\\administrador\\desktop\\bere\\git\\bars-menus\\menuapi\\models\\rositamenudbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|solutionrelative:models\\rositamenudbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|c:\\users\\administrador\\desktop\\bere\\git\\bars-menus\\menuapi\\models\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|solutionrelative:models\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|c:\\users\\administrador\\desktop\\bere\\git\\bars-menus\\menuapi\\models\\entities\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|solutionrelative:models\\entities\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|c:\\users\\administrador\\desktop\\bere\\git\\bars-menus\\menuapi\\models\\dtos\\menuproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|solutionrelative:models\\dtos\\menuproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|c:\\users\\administrador\\desktop\\bere\\git\\bars-menus\\menuapi\\services\\interfaces\\ibarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|solutionrelative:services\\interfaces\\ibarservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|c:\\users\\administrador\\desktop\\bere\\git\\bars-menus\\menuapi\\models\\dtos\\barwithmenudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|solutionrelative:models\\dtos\\barwithmenudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|c:\\users\\administrador\\desktop\\bere\\git\\bars-menus\\menuapi\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|solutionrelative:controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|c:\\users\\administrador\\desktop\\bere\\git\\bars-menus\\menuapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,18 +63,6 @@
       "RelativeMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|solutionrelative:controllers\\sectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|c:\\users\\administrador\\desktop\\bere\\git\\bars-menus\\menuapi\\models\\rositamenudbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|solutionrelative:models\\rositamenudbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|c:\\users\\administrador\\desktop\\bere\\git\\bars-menus\\menuapi\\services\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|solutionrelative:services\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|c:\\users\\administrador\\desktop\\bere\\git\\bars-menus\\menuapi\\services\\interfaces\\imenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|solutionrelative:services\\interfaces\\imenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|c:\\users\\administrador\\desktop\\bere\\git\\bars-menus\\menuapi\\models\\dtos\\menudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|solutionrelative:models\\dtos\\menudto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -65,10 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|c:\\users\\administrador\\desktop\\bere\\git\\bars-menus\\menuapi\\webapplication1.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|solutionrelative:webapplication1.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|c:\\users\\administrador\\desktop\\bere\\git\\bars-menus\\menuapi\\models\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|solutionrelative:models\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|c:\\users\\administrador\\desktop\\bere\\git\\bars-menus\\menuapi\\models\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -109,10 +117,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|c:\\users\\administrador\\desktop\\bere\\git\\bars-menus\\menuapi\\models\\dtos\\credentials\\sectiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|solutionrelative:models\\dtos\\credentials\\sectiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|c:\\users\\administrador\\desktop\\bere\\git\\bars-menus\\menuapi\\models\\entities\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|solutionrelative:models\\entities\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|c:\\users\\administrador\\desktop\\bere\\git\\bars-menus\\menuapi\\models\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -174,24 +178,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "RositaMenuDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Models\\RositaMenuDBContext.cs",
+              "RelativeDocumentMoniker": "Models\\RositaMenuDBContext.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Models\\RositaMenuDBContext.cs",
+              "RelativeToolTip": "Models\\RositaMenuDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T11:57:05.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IMenuService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Services\\Interfaces\\IMenuService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IMenuService.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Services\\Interfaces\\IMenuService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IMenuService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T18:55:04.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MenuController.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Controllers\\MenuController.cs",
               "RelativeDocumentMoniker": "Controllers\\MenuController.cs",
               "ToolTip": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Controllers\\MenuController.cs",
               "RelativeToolTip": "Controllers\\MenuController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAA0AAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAACUAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-06T19:17:59.124Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
+              "Title": "MenuService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Services\\MenuService.cs",
+              "RelativeDocumentMoniker": "Services\\MenuService.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Services\\MenuService.cs",
+              "RelativeToolTip": "Services\\MenuService.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAjwFUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T19:01:20.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MenuProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Models\\Dtos\\MenuProductDto.cs",
+              "RelativeDocumentMoniker": "Models\\Dtos\\MenuProductDto.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Models\\Dtos\\MenuProductDto.cs",
+              "RelativeToolTip": "Models\\Dtos\\MenuProductDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T10:04:10.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Models\\Entities\\Menu.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Menu.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Models\\Entities\\Menu.cs",
+              "RelativeToolTip": "Models\\Entities\\Menu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T19:40:42.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Models\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Models\\Entities\\Product.cs",
+              "RelativeToolTip": "Models\\Entities\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T18:58:45.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "SectionController.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Controllers\\SectionController.cs",
               "RelativeDocumentMoniker": "Controllers\\SectionController.cs",
@@ -199,12 +281,11 @@
               "RelativeToolTip": "Controllers\\SectionController.cs",
               "ViewState": "AQIAACAAAAAAAAAAAAAwwCwAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T14:42:20.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T14:42:20.894Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -212,38 +293,24 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-29T15:06:22.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T15:06:22.03Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RositaMenuDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Models\\RositaMenuDBContext.cs",
-              "RelativeDocumentMoniker": "Models\\RositaMenuDBContext.cs",
-              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Models\\RositaMenuDBContext.cs",
-              "RelativeToolTip": "Models\\RositaMenuDBContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T11:57:05.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "IBarService.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Services\\Interfaces\\IBarService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IBarService.cs",
               "ToolTip": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Services\\Interfaces\\IBarService.cs",
               "RelativeToolTip": "Services\\Interfaces\\IBarService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-06T19:03:52.244Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "BarWithMenuDto.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Models\\Dtos\\BarWithMenuDto.cs",
               "RelativeDocumentMoniker": "Models\\Dtos\\BarWithMenuDto.cs",
@@ -251,12 +318,11 @@
               "RelativeToolTip": "Models\\Dtos\\BarWithMenuDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T22:25:22.455Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T22:25:22.455Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "BarService.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Services\\BarService.cs",
               "RelativeDocumentMoniker": "Services\\BarService.cs",
@@ -264,12 +330,11 @@
               "RelativeToolTip": "Services\\BarService.cs",
               "ViewState": "AQIAAH4AAAAAAAAAAAAmwIAAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T19:07:06.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T19:07:06.35Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "BarController.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Controllers\\BarController.cs",
               "RelativeDocumentMoniker": "Controllers\\BarController.cs",
@@ -277,12 +342,11 @@
               "RelativeToolTip": "Controllers\\BarController.cs",
               "ViewState": "AQIAAE8AAAAAAAAAAADwv1oAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T19:11:24.159Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T19:11:24.159Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
@@ -290,12 +354,11 @@
               "RelativeToolTip": "Controllers\\ProductController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T14:47:22.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T14:47:22.914Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -303,12 +366,11 @@
               "RelativeToolTip": "Controllers\\AuthController.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAiwBQAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T12:58:38.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-26T12:58:38.074Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
@@ -316,12 +378,11 @@
               "RelativeToolTip": "Controllers\\CategoryController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T14:15:02.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-13T14:15:02.584Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -329,25 +390,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAF0AAAAAAAAAAAAiwGQAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T15:01:21.808Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T15:01:21.808Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MenuService.cs",
-              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Services\\MenuService.cs",
-              "RelativeDocumentMoniker": "Services\\MenuService.cs",
-              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Services\\MenuService.cs",
-              "RelativeToolTip": "Services\\MenuService.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAowDUAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T19:01:20.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "MenuDto.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Models\\Dtos\\MenuDto.cs",
               "RelativeDocumentMoniker": "Models\\Dtos\\MenuDto.cs",
@@ -355,25 +402,11 @@
               "RelativeToolTip": "Models\\Dtos\\MenuDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T21:42:18.267Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-06T21:42:18.267Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IMenuService.cs",
-              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Services\\Interfaces\\IMenuService.cs",
-              "RelativeDocumentMoniker": "Services\\Interfaces\\IMenuService.cs",
-              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Services\\Interfaces\\IMenuService.cs",
-              "RelativeToolTip": "Services\\Interfaces\\IMenuService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T18:55:04.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "ProductDto.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Models\\Dtos\\ProductDto.cs",
               "RelativeDocumentMoniker": "Models\\Dtos\\ProductDto.cs",
@@ -385,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Services\\Interfaces\\IProductService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IProductService.cs",
@@ -397,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "WebApplication1.http",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\WebApplication1.http",
               "RelativeDocumentMoniker": "WebApplication1.http",
@@ -409,19 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Models\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Models\\Entities\\Product.cs",
-              "RelativeToolTip": "Models\\Entities\\Product.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAowBMAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T18:58:45.092Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "Services\\ProductService.cs",
@@ -433,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "ISectionService.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Services\\Interfaces\\ISectionService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\ISectionService.cs",
@@ -445,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "ICategoryService.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Services\\Interfaces\\ICategoryService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\ICategoryService.cs",
@@ -457,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "SectionDto.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Models\\Dtos\\Credentials\\SectionDto.cs",
               "RelativeDocumentMoniker": "Models\\Dtos\\Credentials\\SectionDto.cs",
@@ -469,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "Section.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Models\\Entities\\Section.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\Section.cs",
@@ -481,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Services\\CategoryService.cs",
               "RelativeDocumentMoniker": "Services\\CategoryService.cs",
@@ -493,7 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "CategoryDto.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Models\\Dtos\\CategoryDto.cs",
               "RelativeDocumentMoniker": "Models\\Dtos\\CategoryDto.cs",
@@ -505,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Models\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\Category.cs",
@@ -517,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Models\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\User.cs",
@@ -530,18 +551,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 27,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Models\\Entities\\Menu.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\Menu.cs",
-              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Models\\Entities\\Menu.cs",
-              "RelativeToolTip": "Models\\Entities\\Menu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T19:40:42.005Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
               "Title": "SectionService.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Services\\SectionService.cs",
               "RelativeDocumentMoniker": "Services\\SectionService.cs",
@@ -553,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "Bar.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Models\\Entities\\Bar.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\Bar.cs",
@@ -565,7 +574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "SimpleBarDto.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Models\\Entities\\SimpleBarDto.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\SimpleBarDto.cs",
@@ -577,7 +586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "BarDto.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Models\\Dtos\\BarDto.cs",
               "RelativeDocumentMoniker": "Models\\Dtos\\BarDto.cs",
@@ -589,7 +598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "GenericAPIContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Data\\Repositories\\Migrations\\GenericAPIContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Data\\Repositories\\Migrations\\GenericAPIContextModelSnapshot.cs",
@@ -601,7 +610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "20240726115956_InitialCreate.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Data\\Repositories\\Migrations\\20240726115956_InitialCreate.Designer.cs",
               "RelativeDocumentMoniker": "Data\\Repositories\\Migrations\\20240726115956_InitialCreate.Designer.cs",
@@ -613,7 +622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Services\\UserService.cs",
@@ -625,7 +634,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Services\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IUserService.cs",
@@ -637,7 +646,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "CategoryResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Models\\Dtos\\CategoryResponseDto.cs",
               "RelativeDocumentMoniker": "Models\\Dtos\\CategoryResponseDto.cs",
@@ -649,7 +658,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "efpt.config.json",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\efpt.config.json",
               "RelativeDocumentMoniker": "efpt.config.json",
@@ -661,7 +670,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "UserForAddRequest.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Models\\Dtos\\UserForAddRequest.cs",
               "RelativeDocumentMoniker": "Models\\Dtos\\UserForAddRequest.cs",
@@ -673,7 +682,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "LoginRequestDto.cs",
               "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Bere\\GIT\\bars-menus\\MenuAPI\\Models\\Dtos\\Credentials\\LoginRequestDto.cs",
               "RelativeDocumentMoniker": "Models\\Dtos\\Credentials\\LoginRequestDto.cs",
