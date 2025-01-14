@@ -45,7 +45,7 @@ builder.Services.AddDbContext<RositaMenuDBContext>(options =>
 );
 
 // Registering the UserService and PasswordHasher for dependency injectionbuilder.Services.AddScoped<IUserService, UserService>();
-
+builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IBarService, BarService>();

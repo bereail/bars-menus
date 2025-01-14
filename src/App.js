@@ -6,6 +6,10 @@ import MenuPage from "./components/Pages/MenuPages";
 import styled from "styled-components";
 import HomePages from "./components/Pages/HomePages/HomePages";
 import Footer from "./components/Footer";
+import Login from "./components/Login/Login";
+import { AuthProvider } from "./components/Login/AuthContext";
+import CrudPage from "./components/Pages/CrudPage";
+import AuthenticatedLayout from "./components/Login/AuthenticatedLayout";
 
 // Contenedor principal para ajustar el espacio
 const MainContent = styled.div`
@@ -17,18 +21,27 @@ const MainContent = styled.div`
 
 function App() {
   return (
+    <AuthProvider>
     <Router>
       <Navbar />
       <MainContent>
         <Routes>
           <Route path="/" element={<HomePages />} />
           <Route path="/:menuName" element={<MenuPage />} />
+          <Route path="/login" element={<Login />} />
+          
+          
+          {/* Rutas protegidas */}
+          <Route element={<AuthenticatedLayout />}>
+          <Route path="/crud" element={<CrudPage />} />
+          </Route>
         </Routes>
       </MainContent>
       <Footer />
       <GlobalStyle />
       
     </Router>
+    </AuthProvider>
   );
 }
 

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useAuth } from "./AuthContext";
+import { useAuth } from "../Login/AuthContext";
 import { useNavigate } from "react-router-dom";
 
 const Login = () => {
@@ -13,37 +13,36 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
-    setError(""); // Limpiamos cualquier error previo
-
+    setError("");
+  
+    const payload = { username, pass };
+  
     try {
-      const response = await fetch("https://localhost:7119/api/Auth/login", {
+      const response = await fetch("https://localhost:7119/Auth/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ Username: username, Password: pass }),
+        body: JSON.stringify(payload),
       });
-
+  
       if (!response.ok) {
-        const errorData = await response.json();
-        console.error("Errores del servidor:", errorData);
-        throw new Error(errorData.title || "Error de autenticación");
+        const errorMessage = await response.text();
+        console.error("Error del servidor:", errorMessage);
+        setError(`Error: ${response.status} - ${errorMessage}`);
+        return;
       }
-
+  
       const data = await response.json();
       console.log("Autenticación exitosa:", data);
-
-      // Lógica adicional, como guardar el token
-      login(data.Token);
-      setUsername(""); // Limpiamos los campos
-      setPass(""); // Limpiamos los campos
-      navigate("/allMenuRosita"); // Redirect after successful login
+      login(data.Token); // Cambia 'Token' si el nombre es diferente en tu backend
+      navigate("/allMenuRosita");
     } catch (error) {
       console.error("Error en la solicitud:", error.message);
-      setError(error.message);
+      setError("Error en la conexión con el servidor.");
     } finally {
-      setLoading(false); // Termina el estado de carga
+      setLoading(false);
     }
   };
-
+  
   return (
     <div>
       <h2>Login</h2>

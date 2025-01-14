@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\bsolohaga\\Desktop\\bere\\GIT\\bars-menus\\MenuAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|c:\\users\\bsolohaga\\desktop\\bere\\git\\bars-menus\\menuapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|c:\\users\\bsolohaga\\desktop\\bere\\git\\bars-menus\\menuapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|c:\\users\\bsolohaga\\desktop\\bere\\git\\bars-menus\\menuapi\\webapplication1.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|solutionrelative:webapplication1.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|c:\\users\\bsolohaga\\desktop\\bere\\git\\bars-menus\\menuapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{320A5D50-F3B4-44DB-B2BB-F0F8A1E377CE}|WebApplication1.csproj|c:\\users\\bsolohaga\\desktop\\bere\\git\\bars-menus\\menuapi\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -178,48 +178,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 11,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MenuController.cs",
-              "DocumentMoniker": "C:\\Users\\bsolohaga\\Desktop\\bere\\GIT\\bars-menus\\MenuAPI\\Controllers\\MenuController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MenuController.cs",
-              "ToolTip": "C:\\Users\\bsolohaga\\Desktop\\bere\\GIT\\bars-menus\\MenuAPI\\Controllers\\MenuController.cs",
-              "RelativeToolTip": "Controllers\\MenuController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAACcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T19:17:59.124Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MenuService.cs",
-              "DocumentMoniker": "C:\\Users\\bsolohaga\\Desktop\\bere\\GIT\\bars-menus\\MenuAPI\\Services\\MenuService.cs",
-              "RelativeDocumentMoniker": "Services\\MenuService.cs",
-              "ToolTip": "C:\\Users\\bsolohaga\\Desktop\\bere\\GIT\\bars-menus\\MenuAPI\\Services\\MenuService.cs",
-              "RelativeToolTip": "Services\\MenuService.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAjwFUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-06T19:01:20.586Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MenuProductDto.cs",
-              "DocumentMoniker": "C:\\Users\\bsolohaga\\Desktop\\bere\\GIT\\bars-menus\\MenuAPI\\Models\\Dtos\\MenuProductDto.cs",
-              "RelativeDocumentMoniker": "Models\\Dtos\\MenuProductDto.cs",
-              "ToolTip": "C:\\Users\\bsolohaga\\Desktop\\bere\\GIT\\bars-menus\\MenuAPI\\Models\\Dtos\\MenuProductDto.cs",
-              "RelativeToolTip": "Models\\Dtos\\MenuProductDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T10:04:10.485Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "WebApplication1.http",
               "DocumentMoniker": "C:\\Users\\bsolohaga\\Desktop\\bere\\GIT\\bars-menus\\MenuAPI\\WebApplication1.http",
               "RelativeDocumentMoniker": "WebApplication1.http",
@@ -227,8 +194,7 @@
               "RelativeToolTip": "WebApplication1.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-01-10T14:10:21.109Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T14:10:21.109Z"
             },
             {
               "$type": "Document",
@@ -241,10 +207,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T11:57:05.897Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -272,19 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "SectionController.cs",
-              "DocumentMoniker": "C:\\Users\\bsolohaga\\Desktop\\bere\\GIT\\bars-menus\\MenuAPI\\Controllers\\SectionController.cs",
-              "RelativeDocumentMoniker": "Controllers\\SectionController.cs",
-              "ToolTip": "C:\\Users\\bsolohaga\\Desktop\\bere\\GIT\\bars-menus\\MenuAPI\\Controllers\\SectionController.cs",
-              "RelativeToolTip": "Controllers\\SectionController.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAwwCwAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T14:42:20.894Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\bsolohaga\\Desktop\\bere\\GIT\\bars-menus\\MenuAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -294,6 +244,54 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-07-29T15:06:22.03Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MenuProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\bsolohaga\\Desktop\\bere\\GIT\\bars-menus\\MenuAPI\\Models\\Dtos\\MenuProductDto.cs",
+              "RelativeDocumentMoniker": "Models\\Dtos\\MenuProductDto.cs",
+              "ToolTip": "C:\\Users\\bsolohaga\\Desktop\\bere\\GIT\\bars-menus\\MenuAPI\\Models\\Dtos\\MenuProductDto.cs",
+              "RelativeToolTip": "Models\\Dtos\\MenuProductDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T10:04:10.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MenuService.cs",
+              "DocumentMoniker": "C:\\Users\\bsolohaga\\Desktop\\bere\\GIT\\bars-menus\\MenuAPI\\Services\\MenuService.cs",
+              "RelativeDocumentMoniker": "Services\\MenuService.cs",
+              "ToolTip": "C:\\Users\\bsolohaga\\Desktop\\bere\\GIT\\bars-menus\\MenuAPI\\Services\\MenuService.cs",
+              "RelativeToolTip": "Services\\MenuService.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAjwFUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T19:01:20.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "C:\\Users\\bsolohaga\\Desktop\\bere\\GIT\\bars-menus\\MenuAPI\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MenuController.cs",
+              "ToolTip": "C:\\Users\\bsolohaga\\Desktop\\bere\\GIT\\bars-menus\\MenuAPI\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "Controllers\\MenuController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T19:17:59.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SectionController.cs",
+              "DocumentMoniker": "C:\\Users\\bsolohaga\\Desktop\\bere\\GIT\\bars-menus\\MenuAPI\\Controllers\\SectionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SectionController.cs",
+              "ToolTip": "C:\\Users\\bsolohaga\\Desktop\\bere\\GIT\\bars-menus\\MenuAPI\\Controllers\\SectionController.cs",
+              "RelativeToolTip": "Controllers\\SectionController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwCwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T14:42:20.894Z"
             },
             {
               "$type": "Document",
@@ -309,13 +307,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\bsolohaga\\Desktop\\bere\\GIT\\bars-menus\\MenuAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\bsolohaga\\Desktop\\bere\\GIT\\bars-menus\\MenuAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-29T15:01:21.808Z",
               "EditorCaption": ""

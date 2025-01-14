@@ -18,7 +18,7 @@ const Navbar = () => {
       </NavbarBrand>
       <NavbarLinks>
         <NavbarLinkItem>
-          <Link to="/menuRosita">Menu</Link>
+          <Link to="/login">Login</Link>
         </NavbarLinkItem>
       </NavbarLinks>
     </NavbarWrapper>

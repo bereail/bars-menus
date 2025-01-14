@@ -2,7 +2,7 @@
 import React from 'react';
 import { Outlet, Navigate } from 'react-router-dom';
 import { useAuth } from './AuthContext';
-import RositaNavbar from '../Navbar/Index';
+import Navbar from '../Header';
 
 const AuthenticatedLayout = () => {
     const { isLoggedIn } = useAuth();
@@ -13,7 +13,7 @@ const AuthenticatedLayout = () => {
   
     return (
       <div>
-        <RositaNavbar />
+        <Navbar/>
         <main>
           <Outlet />
         </main>
